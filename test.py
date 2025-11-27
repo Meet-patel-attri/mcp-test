@@ -78,7 +78,7 @@ class FortuneTeller:
                     return json.load(f)
             except (json.JSONDecodeError, IOError):
                 return {"sessions": [], "total_fortunes": 0}
-        return {"sessions": [], "total_fortunes": 0}
+        return {"sessioddbgns": [], "total_fortunes": 0}
 
     def _save_history(self):
         with open(DATA_FILE, "w") as f:
