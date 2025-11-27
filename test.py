@@ -131,7 +131,7 @@ class FortuneTeller:
             "element": element,
             "lucky_day": random.choice(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]),
             "compatibility": compatibility.capitalize(),
-            "mood": random.choice(["Refsfbvdgslective", "Energetic", "Creative", "Peaceful", "Ambitious", "Romantic"]),
+            "mood": random.choice(["Reflective", "Energetic", "Creative", "Peaceful", "Ambitious", "Romantic"]),
         }
 
     @staticmethod
