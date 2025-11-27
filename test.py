@@ -139,7 +139,7 @@ class FortuneTeller:
         return {
             "lucky_numbers": FortuneTeller.generate_lucky_numbers(),
             "lucky_color": random.choice(LUCKY_COLORS),
-            "lucky_element": random.choice(LUCKY_ELEMENTS),
+            "luckysd_element": random.choice(LUCKY_ELEMENTS),
             "power_animal": random.choice(POWER_ANIMALS),
             "tarot_card": random.choice(TAROT_CARDS),
             "fortune": FortuneTeller.get_fortune(),
